@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rafael CEREZO MARTIN - Software & AI Engineer</title>
+  <meta name="description" content="Portfolio de projets AI Engineer, MLOps, RAG, computer vision, reinforcement learning et agents IA - Rafael CEREZO MARTIN." />
+  <meta property="og:title" content="Rafael CEREZO MARTIN - Portfolio AI Engineer" />
+  <meta property="og:description" content="Projets IA, MLOps, RAG, vision, RL et agents IA." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="brand" href="#top">RCM<span>AI</span></a>
+      <div class="nav-links">
+        <a href="#projets">Projets</a>
+        <a href="#experience">Expérience</a>
+        <a href="#competences">Compétences</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#formation">Formation</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">Software & AI Engineer · MLOps · Agents IA</p>
+        <div class="identity">
+          <img class="avatar" src="assets/images/rafa.jpeg" alt="Photo de Rafael Cerezo Martin" />
+          <h1>Rafael<br>CEREZO MARTIN</h1>
+        </div>
+        <p class="lead">
+          Développeur full-stack senior en spécialisation AI Engineer, avec une expérience longue en applications métier,
+          robotique, systèmes embarqués et industrialisation logicielle. Ce portfolio rassemble mes projets IA : machine learning,
+          MLOps, RAG, computer vision, reinforcement learning, extraction multimodale et agents IA.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projets">Voir les projets</a>
+          <button type="button" class="btn email-link" data-user="rafael.cerezo.martin" data-domain="icloud" data-tld="com">Me contacter</button>
+          <a class="btn social github" href="https://github.com/racemartin" target="_blank" rel="noopener" aria-label="GitHub de Rafael Cerezo Martin">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A12 12 0 0 0 8.2 23.9c.6.1.8-.2.8-.6v-2.1c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.6 2.6 3.4 1.9.1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+            GitHub
+          </a>
+          <a class="btn social linkedin" href="https://www.linkedin.com/in/rafael-cerezo-martin/" target="_blank" rel="noopener" aria-label="LinkedIn de Rafael Cerezo Martin">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.58c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.32 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.1 20.45H3.54V9H7.1v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <aside class="profile-card" aria-label="Résumé profil">
+        <h2>Profil</h2>
+        <ul>
+          <li><strong>Localisation</strong><span>Biarritz · Nouvelle-Aquitaine</span></li>
+          <li><strong>Formation</strong><span>AI Engineer · RNCP niveau 7</span></li>
+          <li><strong>Axes</strong><span>ML · RAG · MLOps · Agents · Vision</span></li>
+          <li><strong>Stack</strong><span>Python · FastAPI · MLflow · Docker · LangGraph</span></li>
+        </ul>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="competences">
+      <div class="section-head">
+        <p class="eyebrow">Synthèse</p>
+        <h2 class="nowrap-heading">Compétences mises en œuvre</h2>
+      </div>
+      <div class="filters filters--left" aria-label="Filtres de compétences par domaine">
+        <button class="filter skill-filter active" data-filter="ia">IA / ML</button>
+        <button class="filter skill-filter" data-filter="mlops">MLOps / Data</button>
+        <button class="filter skill-filter" data-filter="web">Web & Mobile</button>
+        <button class="filter skill-filter" data-filter="embarque">Embarqué & Robotique</button>
+        <button class="filter skill-filter" data-filter="reseaux">Systèmes & Réseaux</button>
+        <button class="filter skill-filter" data-filter="academique">Langages académiques</button>
+      </div>
+      <div class="skills" id="skillsGrid" data-domain="ia">
+        <span data-filter="ia">Python</span><span data-filter="ia">NumPy</span><span data-filter="ia">pandas</span>
+        <span data-filter="ia">scikit-learn</span><span data-filter="ia">SHAP</span><span data-filter="ia">LangChain</span>
+        <span data-filter="ia">LangGraph</span><span data-filter="ia">FAISS</span><span data-filter="ia">Milvus</span>
+        <span data-filter="ia">RAGAS</span><span data-filter="ia">Mistral</span><span data-filter="ia">Agents IA</span>
+        <span data-filter="ia">Computer vision</span><span data-filter="ia">NLP</span><span data-filter="ia">Reinforcement learning</span>
+        <span data-filter="ia">Stable-Baselines3</span><span data-filter="ia">TensorBoard</span><span data-filter="ia">LoRA / SFT / DPO</span>
+
+        <span data-filter="mlops" class="hidden">MLflow</span><span data-filter="mlops" class="hidden">BentoML</span><span data-filter="mlops" class="hidden">Model registry</span>
+        <span data-filter="mlops" class="hidden">Monitoring</span><span data-filter="mlops" class="hidden">Drift analysis</span><span data-filter="mlops" class="hidden">CI/CD</span>
+        <span data-filter="mlops" class="hidden">Docker</span><span data-filter="mlops" class="hidden">PostgreSQL</span><span data-filter="mlops" class="hidden">SQL</span>
+        <span data-filter="mlops" class="hidden">Airflow</span><span data-filter="mlops" class="hidden">Streamlit</span><span data-filter="mlops" class="hidden">Pytest</span>
+        <span data-filter="mlops" class="hidden">FastAPI</span><span data-filter="mlops" class="hidden">Pydantic</span><span data-filter="mlops" class="hidden">API REST</span>
+        <span data-filter="mlops" class="hidden">Architecture hexagonale</span>
+
+        <span data-filter="web" class="hidden">Symfony</span><span data-filter="web" class="hidden">Doctrine</span><span data-filter="web" class="hidden">JavaScript</span>
+        <span data-filter="web" class="hidden">Android</span><span data-filter="web" class="hidden">J2ME</span><span data-filter="web" class="hidden">Responsive Web Design</span>
+
+        <span data-filter="embarque" class="hidden">Assembler Motorola MPC555</span><span data-filter="embarque" class="hidden">PIC18</span><span data-filter="embarque" class="hidden">WinDLX</span>
+        <span data-filter="embarque" class="hidden">VHDL</span><span data-filter="embarque" class="hidden">Spice</span><span data-filter="embarque" class="hidden">MaxPlus II</span>
+        <span data-filter="embarque" class="hidden">MPLAB X</span><span data-filter="embarque" class="hidden">SynDEx</span><span data-filter="embarque" class="hidden">C</span>
+        <span data-filter="embarque" class="hidden">Temps réel</span>
+
+        <span data-filter="reseaux" class="hidden">Linux</span><span data-filter="reseaux" class="hidden">Mac OS X</span><span data-filter="reseaux" class="hidden">Apache</span>
+        <span data-filter="reseaux" class="hidden">Bind</span><span data-filter="reseaux" class="hidden">Sendmail</span><span data-filter="reseaux" class="hidden">SNMP</span>
+        <span data-filter="reseaux" class="hidden">MySQL</span><span data-filter="reseaux" class="hidden">Filemaker Pro</span><span data-filter="reseaux" class="hidden">FastObject POET</span>
+
+        <span data-filter="academique" class="hidden">Lisp</span><span data-filter="academique" class="hidden">Prolog</span><span data-filter="academique" class="hidden">G2</span>
+        <span data-filter="academique" class="hidden">Lex / Yacc</span><span data-filter="academique" class="hidden">MPI</span><span data-filter="academique" class="hidden">Perl</span>
+        <span data-filter="academique" class="hidden">Java</span><span data-filter="academique" class="hidden">OpenGL</span><span data-filter="academique" class="hidden">UML / Visual Paradigm</span>
+      </div>
+    </section>
+
+    <section class="section" id="projets">
+      <div class="section-head with-filter">
+        <div>
+          <p class="eyebrow">Livrables</p>
+          <h2>Projets IA & data</h2>
+        </div>
+        <div class="filters" aria-label="Filtres de projets">
+          <button class="filter active" data-filter="all">Tous</button>
+          <button class="filter" data-filter="ml">ML</button>
+          <button class="filter" data-filter="mlops">MLOps</button>
+          <button class="filter" data-filter="rag">RAG</button>
+          <button class="filter" data-filter="vision">Vision</button>
+          <button class="filter" data-filter="agent">Agents</button>
+        </div>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card" data-tags="mlops monitoring llm medical">
+          <div class="card-top"><span class="mission">M15</span><span class="tag">Observabilité</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m15-cover.png')"></div>
+          <h3>CHSA - Observabilité & garde-fous d'un agent de triage</h3>
+          <p>Audit d'un agent IA médical déjà en production : tableau de bord Grafana/Prometheus et garde-fou juge-LLM rétrospectif, sans jamais modifier le système audité.</p>
+          <ul><li>Prometheus / Grafana</li><li>Juge-LLM local (llama.cpp)</li><li>Architecture hexagonale</li></ul>
+          <a href="assets/pdfs/m15-chsa-triage-observability.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="llm medical agent mlops">
+          <div class="card-top"><span class="mission">M14</span><span class="tag">LLM médical</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m14-cover.png')"></div>
+          <h3>CHSA - Agent de triage médical</h3>
+          <p>POC d’agent IA pour orienter les patients aux urgences, avec fine-tuning supervisé et alignement par préférences.</p>
+          <ul><li>Qwen</li><li>LoRA / SFT / DPO</li><li>MLflow</li><li>Cloud GPU</li></ul>
+          <a href="assets/pdfs/m14-medical-triage-llm.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="agent rag llm api">
+          <div class="card-top"><span class="mission">M13</span><span class="tag">Agent IA</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m13-cover.png')"></div>
+          <h3>FFE Chess Agent - Apprentissage des échecs</h3>
+          <p>Agent LangGraph multi-source combinant théorie, moteur d’échecs, recherche vectorielle et synthèse pédagogique.</p>
+          <ul><li>LangGraph</li><li>Milvus</li><li>MongoDB</li><li>FastAPI</li></ul>
+          <a href="assets/pdfs/m13-chess-ai-agent.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="data etl mlops">
+          <div class="card-top"><span class="mission">M12</span><span class="tag">ETL multimodal</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m12-cover.png')"></div>
+          <h3>CheckIt.AI - Fake news multimodal</h3>
+          <p>Pipeline texte + image pour collecter, transformer et orchestrer des données d’entraînement.</p>
+          <ul><li>Architecture hexagonale</li><li>Apache Airflow</li><li>Scraping</li></ul>
+          <a href="assets/pdfs/m12-multimodal-fake-news-etl.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="rl api streamlit">
+          <div class="card-top"><span class="mission">M11</span><span class="tag">RL</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m11-cover.png')"></div>
+          <h3>Eagle-1 - Agent RL LunarLander</h3>
+          <p>Agent PPO/DQN pour contrôler un module d’alunissage avec API FastAPI et dashboard Streamlit.</p>
+          <ul><li>Stable-Baselines3</li><li>PPO/DQN</li><li>FastAPI</li><li>Streamlit</li></ul>
+          <a href="assets/pdfs/m11-reinforcement-learning-lunarlander.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="vision ml medical">
+          <div class="card-top"><span class="mission">M10</span><span class="tag">Vision médicale</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m10-cover.png')"></div>
+          <h3>Curelytics IA - IRM cérébrales</h3>
+          <p>Détection de tumeurs avec peu de données annotées via embeddings, clustering et pseudo-labellisation.</p>
+          <ul><li>ResNet50</li><li>K-Means / DBSCAN</li><li>Semi-supervisé</li></ul>
+          <a href="assets/pdfs/m10-medical-vision.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="product framing ai">
+          <div class="card-top"><span class="mission">M09</span><span class="tag">Cadrage IA</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m09-cover.png')"></div>
+          <h3>Application mobile de recommandation mode</h3>
+          <p>Cadrage d’un produit IA de recommandation vestimentaire à partir de photos pour un acteur retail.</p>
+          <ul><li>Cadrage produit</li><li>Risques IA</li><li>Roadmap</li></ul>
+          <a href="assets/pdfs/m09-ai-product-framing.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="mlops monitoring finance">
+          <div class="card-top"><span class="mission">M08</span><span class="tag">Monitoring</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m08-cover.png')"></div>
+          <h3>Scoring crédit - Déploiement & monitoring</h3>
+          <p>Suivi en production d’un modèle de scoring : monitoring, drift, performance et tableaux de bord.</p>
+          <ul><li>Monitoring</li><li>Drift analysis</li><li>Dashboard</li></ul>
+          <a href="assets/pdfs/m08-credit-scoring-monitoring.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="rag llm api">
+          <div class="card-top"><span class="mission">M07</span><span class="tag">RAG</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m07-cover.png')"></div>
+          <h3>Puls-Events - Assistant RAG culturel</h3>
+          <p>Système RAG pour recommander des événements culturels en langage naturel avec réponses contextualisées et sourcées.</p>
+          <ul><li>LangChain</li><li>Mistral</li><li>FAISS</li><li>API REST</li></ul>
+          <a href="assets/pdfs/m07-rag-events.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="mlops ml finance">
+          <div class="card-top"><span class="mission">M06</span><span class="tag">MLOps</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m06-cover.png')"></div>
+          <h3>Scoring crédit - MLOps partie 1</h3>
+          <p>Classification de risque de défaut et industrialisation du cycle de vie modèle pour la décision crédit.</p>
+          <ul><li>Model registry</li><li>Tracking</li><li>Métriques métier</li></ul>
+          <a href="assets/pdfs/m06-credit-scoring-mlops-1.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="mlops api ml">
+          <div class="card-top"><span class="mission">M05</span><span class="tag">API ML</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m05-cover.png')"></div>
+          <h3>Déploiement d’un modèle ML</h3>
+          <p>Proof of Concept pour exposer un modèle via API avec traçabilité, tests et persistance des prédictions.</p>
+          <ul><li>FastAPI</li><li>MLflow</li><li>BentoML</li><li>PostgreSQL</li></ul>
+          <a href="assets/pdfs/m05-ml-api-deployment.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="ml data rh">
+          <div class="card-top"><span class="mission">M04</span><span class="tag">ML métier</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m04-cover.png')"></div>
+          <h3>TechNova - Analyse d’attrition RH</h3>
+          <p>Analyse des causes de départ et identification de leviers actionnables pour réduire le turnover.</p>
+          <ul><li>Classification</li><li>Analyse RH</li><li>SHAP & insights métier</li></ul>
+          <a href="assets/pdfs/m04-technova-attrition.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="ml data">
+          <div class="card-top"><span class="mission">M03</span><span class="tag">ML</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m03-cover.png')"></div>
+          <h3>Seattle Energy - Prédiction consommation & CO₂</h3>
+          <p>Modèles supervisés pour prédire la consommation énergétique et les émissions de bâtiments non résidentiels.</p>
+          <ul><li>Régression</li><li>Feature engineering</li><li>Interprétabilité</li></ul>
+          <a href="assets/pdfs/m03-seattle-energy.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+
+        <article class="project-card" data-tags="vision ml api">
+          <div class="card-top"><span class="mission">M02</span><span class="tag">Vision</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/m02-cover.png')"></div>
+          <h3>ModeTrends - Segmentation vestimentaire</h3>
+          <p>Évaluation de SegFormer / Hugging Face pour segmenter des vêtements sur images sociales et estimer les coûts API à grande échelle.</p>
+          <ul><li>Computer vision</li><li>Hugging Face API</li><li>Estimation de coût</li></ul>
+          <a href="assets/pdfs/m02-modetrends-segmentation.pdf" target="_blank" rel="noopener">Ouvrir le support PDF</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-head">
+        <p class="eyebrow">Avant l'AI Engineering</p>
+      </div>
+
+      <div class="section-head section-head--swap" style="margin-top: 0;">
+        <p class="eyebrow">Low-Level (real-time embedded Software)</p>
+        <h2>Intégration logicielle & robotique</h2>
+      </div>
+      <h3 style="margin: 0 0 16px; color: var(--muted); font-size: 1.1rem;">Robosoft / ESTIA - Robotique & R&D embarqué (1996–2014)</h3>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Inria / Robosoft</span><span class="tag">Véhicule autonome</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/Cycab_Schema.jpg')"></div>
+          <h3>CyCab - Véhicule urbain autonome</h3>
+          <p>Petit véhicule électrique biplace sans volant ni pédales, conçu pour le transport automatisé de proximité ("dernier kilomètre") en centre-ville, zones piétonnes ou sites dédiés. Développé à l'origine par l'Inria (projet Praxitèle), puis industrialisé et commercialisé par Robosoft. Cinématique bi-steerable : direction sur les essieux avant et arrière pour une grande maniabilité.</p>
+          <ul><li>Véhicule autonome</li><li>Direction 4 roues (bi-steerable)</li><li>Inria / Robosoft</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Robosoft</span><span class="tag">Robotique industrielle</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/yaskawa-motoman-mh5-s1v11921-2.jpg')"></div>
+          <h3>Intégration bras robotique 6-DOF Motoman / cartes MPC555</h3>
+          <p>Chez Robosoft, intégration de bras robotiques industriels <b>Yaskawa Motoman</b> (6 axes) avec des cartes de contrôle à base du microcontrôleur <b>Motorola MPC555</b>.</p>
+          <ul><li>Robotique industrielle 6 axes</li><li>Motorola MPC555</li><li>Robosoft</li></ul>
+        </article>
+        
+        <article class="project-card">
+          <div class="card-top"><span class="mission">2013</span><span class="tag">Systèmes embarqués</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/SYRENA.png')"></div>
+          <h3>SYRENA - Event Data Recorder (EDR)</h3>
+          <p>Projet consortium de 26 entreprises piloté par <b>Turbomeca</b> pour l'amélioration des <b>turbines d'hélicoptères</b> : SYRENA (SYstème de Régulation Nouvelle Architecture). À ESTIA (Technopole Izarbel, Bidart), en tant qu'ingénieur R&D embarqué : programmation du système embarqué EDR (Event Data Recorder, Lot 140 Plug and Play), drivers CAN et SPI EEPROM, et cahier de tests associé.</p>
+          <ul><li>Système embarqué temps réel</li><li>Drivers CAN / SPI EEPROM</li><li>Turbomeca / ESTIA</li></ul>
+        </article>
+        
+        <article class="project-card">
+          <div class="card-top"><span class="mission">RoboSoft / IST Lisboa</span><span class="tag">Reconstruction 3D</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/resolv.png')"></div>
+          <h3>RESOLV - Reconstruction 3D d'environnements réels</h3>
+          <p>Projet européen ACTS (Advanced Communications Technologies and Services) visant à reconstruire automatiquement des environnements intérieurs en 3D à partir de mesures laser et d'images vidéo. Développé en collaboration avec <b>RoboSoft</b> et l'<b>Instituto Superior Técnico de Lisbonne</b>, avec la contribution de l'équipe de recherche de Vítor Sequeira. Le système associait un scanner laser 3D et une caméra vidéo pour fusionner les données géométriques et visuelles, reconstituer les surfaces et générer des modèles 3D photoréalistes navigables.</p>
+          <ul>
+            <li>Robotique mobile et perception 3D</li>
+            <li>Fusion LiDAR / caméra vidéo</li>
+            <li>Reconstruction 3D et texturage photoréaliste</li>
+            <li>RoboSoft / Université de Lisbonne (IST)</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Robosoft</span><span class="tag">Robot nettoyeur</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/louvre.png')"></div>
+          <h3>Robuglass - Nettoyage de la pyramide du Louvre</h3>
+          <p>Robot développé par Robosoft pour automatiser le nettoyage et l'entretien de la <b>pyramide du Louvre</b> (verre et acier, ~20 m de haut), en remplacement des cordistes. Brosses rotatives, raclettes, circuit d'eau et ventouses/rails redondants, guidage par capteurs optiques le long des arêtes des panneaux de verre.</p>
+          <ul><li>Robotique de nettoyage</li><li>Guidage par capteurs optiques</li><li>Robosoft</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Robosoft</span><span class="tag">Robot nettoyeur</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/saint-denis.png')"></div>
+          <h3>Saint-Denis - Nettoyage des verrières du Stade de France</h3>
+          <p>Robot développé par Robosoft, nettoyeur de vitres de grande envergure pour l'entretien des verrières monumentales, inclinées et difficiles d'accès, du <b>Stade de France à Saint-Denis</b>. Forte puissance d'aspiration, guidage par rails et câbles de sécurité, arrosage et brossage autonomes sur d'immenses surfaces de verre.</p>
+          <ul><li>Robotique de nettoyage</li><li>Grandes surfaces vitrées</li><li>Robosoft</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">2000</span><span class="tag">Robotique médicale</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/PICASSO.png')"></div>
+          <h3>PICASSO - Robot de positionnement médical</h3>
+          <p>Contribution de Robosoft à la conception du système robotique PICASSO pour <b>Philips Medical Systems</b> : positionnement d'une chambre d'ionisation sur base Robulab.</p>
+          <ul><li>Conception mécanique</li><li>Localisation</li><li>Robulab</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">2006</span><span class="tag">Véhicule autonome</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/ROBUCAB.png')"></div>
+          <h3>robuCAB - Architecture générale V2004</h3>
+          <p>Implémentation bas niveau en assembleur <b>Motorola MPC555</b> pour le robuCAB, plateforme de véhicule électrique autonome développée par Robosoft. Ne nécessite aucun conducteur et peut réaliser des manœuvres d'auto-stationnement grâce à 3 modes de braquage des roues avant et arrière : <b>drive</b>, <b>dual</b> et <b>park</b>.</p>
+          <ul><li>Programmation bas niveau</li><li>Auto-stationnement</li><li>Robosoft</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Neomades</span><span class="tag">Thèse / DSML</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/Banc_de_test_online.png')"></div>
+          <h3>Banc de test DSML pour applications mobiles</h3>
+          <p>Direction d'une équipe de 7 personnes chez Neomades autour d'un banc de test industriel et son middleware de contrôle pour la validation d'applications mobiles sur de nombreux terminaux (fragmentation matérielle/logicielle). Le projet a donné lieu à la thèse de Y. Ridene.</p>
+          <ul><li>Direction de projet (7 personnes)</li><li>Model-Driven Testing</li><li>Neomades</li></ul>
+        </article>
+        
+        <article class="project-card">
+          <div class="card-top"><span class="mission">2000 — Robosoft / GSF</span><span class="tag">Robotique de service</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/autolaveuse-c100.png')"></div>
+          <p class="project-location">Technopole Izarbel (Bidart)</p>
+          <h3>Autolaveuse autonome C100 - Recallage au vol</h3>
+          <p>Projet de robotisation de la laveuse industrielle <b>Comac C100</b> en partenariat avec <b>GSF</b> et <b>Henkel Ecolab</b>. Développement d'un algorithme de <b>recallage au vol en temps réel</b> permettant au robot de corriger sa position et d'exécuter des virages fluides en continu, sans aucune interruption de trajectoire ni arrêt de navigation.</p>
+          <ul>
+           <li>Navigation temps réel sans arrêt</li>
+           <li>Recallage dynamique au vol</li>
+           <li>Robosoft / GSF / Comac</li>
+          </ul>
+        </article>
+        
+        <article class="project-card">
+  <div class="card-top"><span class="mission">1990 — Robosoft / STAB / SEMVAT</span><span class="tag">Robotique industrielle</span></div>
+  <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/oscar-robot.png')"></div>
+  <p class="project-location">Bayonne / Toulouse</p>
+  <h3>OSCAR - Ravitaillement automatique de bus</h3>
+  <p>Prototypage d'un système robotisé de <b>ravitaillement automatique en carburant</b> pour les flottes de transports publics, développé par <b>Robosoft</b> en collaboration avec les régies de bus <b>STAB</b> (Bayonne) et <b>SEMVAT</b> (Toulouse). Automatisation complète de l'insertion du pistolet et du remplissage des réservoirs.</p>
+  <ul>
+    <li>Ravitaillement robotisé autonome</li>
+    <li>Gestion de flottes de transport</li>
+    <li>Robosoft / STAB / SEMVAT</li>
+  </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Robosoft</span><span class="tag">Transport de personnes</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/cts_bayonne.jpeg')"></div>
+          <p class="project-location">Bayonne, près des remparts du centre-ville</p>
+          <h3>CTS - Véhicule expérimental sans conducteur</h3>
+          <p>Système de transport collectif (CTS) : véhicule expérimental sans conducteur coordonné par un système de supervision, installé près d'un parking à Bayonne, à proximité des remparts du centre-ville, pour le transport de personnes. Fonctionnement en mode navette (circuits programmés) ou à la demande.</p>
+          <ul><li>Véhicule autonome expérimental</li><li>Système de supervision</li><li>Robosoft</li></ul>
+        </article>
+
+      </div>
+
+      <div class="section-head section-head--swap" style="margin-top: 48px;">
+        <p class="eyebrow">Hight-Level (Distributed Web Apps and Mobile Software)</p>
+        <h2>Analyste développeur full-stack</h2>
+      </div>
+      <h3 style="margin: 0 0 16px; color: var(--muted); font-size: 1.1rem;">Seriel / XEFI Bayonne (2016–2024)</h3>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Textile</span><span class="tag">Passerelle ERP</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/k-MARES.jpeg')"></div>
+          <h3>K-Mares - Passerelle Wavesoft</h3>
+          <p>Gestion de stock, préparation de commandes et réception de marchandises pour le secteur textile, via une passerelle avec l'ERP Wavesoft.</p>
+          <ul><li>Intégration ERP</li><li>Gestion de stock</li><li>Wavesoft</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Agroalimentaire</span><span class="tag">Gestion production</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/Scomparin.jpeg')"></div>
+          <h3>Scomparin - Gestion de boulangeries</h3>
+          <p>Gestion des demandes de commandes dans un réseau de boulangeries : production, distribution et réception des marchandises.</p>
+          <ul><li>Gestion de production</li><li>Multi-sites</li><li>Wavesoft</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Agroalimentaire</span><span class="tag">Courtage international</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/Couecou.jpeg')"></div>
+          <h3>Couecou - Courtage de jus de fruits</h3>
+          <p>Application permettant de réaliser le courtage de jus de fruits à l'échelle mondiale.</p>
+          <ul><li>Commerce international</li><li>Application métier</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Cosmétiques</span><span class="tag">Passerelle e-commerce</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/coiff-express.png')"></div>
+          <h3>CoiffExpress - Wavesoft ↔ Prestashop</h3>
+          <p>Passerelle pour l'échange d'informations entre l'ERP Wavesoft et la boutique en ligne Prestashop.</p>
+          <ul><li>E-commerce</li><li>Synchronisation ERP</li><li>Prestashop</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Construction</span><span class="tag">API & passerelle</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/bouney.jpeg')"></div>
+          <h3>Bouney - Proginov ↔ Magento</h3>
+          <p>API pour la réalisation d'une passerelle mettant à disposition les informations de l'ERP Proginov à une application Magento.</p>
+          <ul><li>API REST</li><li>Proginov</li><li>Magento</li></ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"><span class="mission">Services</span><span class="tag">Pilotage métier</span></div>
+          <div class="card-thumb" aria-hidden="true" style="background-image:url('assets/images/alliance_energies.jpeg')"></div>
+          <h3>Alliance Energies - Pilotage maintenance & services</h3>
+          <p>Application cœur de métier pour le pilotage de la maintenance et des services.</p>
+          <ul><li>Application métier</li><li>Suivi d'interventions</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split" id="parcours">
+      <div>
+        <p class="eyebrow">Parcours</p>
+        <h2>Un profil hybride logiciel + IA</h2>
+        <p>
+          Mon parcours combine développement logiciel, intégration métier, systèmes embarqués, robotique et projets IA récents.
+          La formation AI Engineer structure ces expériences autour de pipelines ML, MLOps, RAG, agents IA, vision et fine-tuning LLM.
+        </p>
+      </div>
+      <div class="timeline">
+        <div><strong>2025–2026</strong><span>OpenClassrooms - AI Engineer, RNCP niveau 7</span></div>
+        <div><strong>2016–2024</strong><span>Seriel / XEFI Bayonne - Analyste développeur full-stack</span></div>
+        <div><strong>2013–2014</strong><span>ESTIA / Aquitaine Électronique - Ingénieur R&D embarqué</span></div>
+        <div><strong>1996–2011</strong><span>Robosoft / Neomades - Robotique, R&D, systèmes distribués</span></div>
+      </div>
+    </section>
+
+    <section class="section split" id="formation">
+      <div>
+        <p class="eyebrow">Parcours de formation</p>
+        <h2>Des systèmes embarqués à l'IA Engineering</h2>
+        <p>
+          Un parcours académique hispano-français, de la programmation bas niveau et l'ingénierie informatique
+          classique à la spécialisation récente en AI Engineering.
+        </p>
+      </div>
+      <div class="timeline">
+        <div><strong>2025–2026</strong><span>IA Engineer - OpenClassrooms</span></div>
+        <div><strong>2009</strong><span>Gestion de Projet - CSP Formation (Paris, Toulouse)</span></div>
+        <div><strong>2006–2008</strong><span>Ingénieur en Informatique (Licenciatura), Cycle Supérieur d'ingénieur informatique (Plan 1999) - Université de Salamanque</span></div>
+        <div><strong>1995</strong><span>Diplômé en Informatique (Diplomatura) - Faculté de Physique, Université de Salamanque</span></div>
+        <div><strong>1993</strong><span>Technicien en programmation de systèmes - Instituto n°3, Salamanque</span></div>
+        <div><strong>1992</strong><span>Technicien en programmation de gestion (CEA) - Instituto n°3, Salamanque</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="section-head">
+        <p class="eyebrow">Travaux académiques</p>
+        <h2>Publications</h2>
+      </div>
+      <ul class="pub-list">
+        <li>Microelectrónica. Tecnología y fabricación de circuitos integrados (Spice)</li>
+        <li>Análisis y diseño de circuitos digitales combinacionales y secuenciales. Herramientas de diseño asistido por ordenador para circuitos digitales (Altera: MaxPlus II)</li>
+        <li>OpenGL. Informática gráfica y programación</li>
+        <li>Creación de aplicaciones en Java</li>
+        <li>Programación en sistemas distribuidos. MPI (Message Passing Interface)</li>
+        <li>Conjuntos borrosos (Fuzzy Logic). Álgebra de predicados en la lógica difusa, razonamiento aproximado, Mathematica y lógica computacional</li>
+        <li>El lenguaje UML y el Proceso Unificado RUP (Visual Paradigm)</li>
+        <li>Segmentación en un sistema monoprocesador : técnicas de anticipación (ensamblador DLX)</li>
+        <li>Redes de área ancha. SNMP. Seguridad en redes. Redes inalámbricas</li>
+        <li>Inteligencia artificial. Sistemas expertos, bases de conocimiento, métodos de inferencia, shells. Programación en Lisp, Prolog y G2</li>
+        <li>Bases de datos orientadas a objetos. Bases de datos distribuidas</li>
+        <li>Administración de servicios de Internet en sistemas UNIX/Linux</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div>
+      <h2>Contact</h2>
+      <p>Biarritz · disponible pour projets IA / software / data</p>
+    </div>
+    <div class="footer-links">
+      <button type="button" class="footer-social email-link" data-user="rafael.cerezo.martin" data-domain="icloud" data-tld="com" aria-label="Contacter Rafael Cerezo Martin par email">
+        <span class="icon" aria-hidden="true">@</span>
+        Email : cliquer pour contacter
+      </button>
+      <a class="footer-social" href="https://github.com/racemartin" target="_blank" rel="noopener" aria-label="GitHub de Rafael Cerezo Martin">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A12 12 0 0 0 8.2 23.9c.6.1.8-.2.8-.6v-2.1c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.6 2.6 3.4 1.9.1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+        github.com/racemartin
+      </a>
+      <a class="footer-social" href="https://www.linkedin.com/in/rafael-cerezo-martin/" target="_blank" rel="noopener" aria-label="LinkedIn de Rafael Cerezo Martin">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.58c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.32 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.1 20.45H3.54V9H7.1v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
+        linkedin.com/in/rafael-cerezo-martin
+      </a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
